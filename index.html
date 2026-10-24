@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>小岛笔记 — 阅读、生活与思考</title>
+  <meta name="description" content="一个安静的内容角落，分享阅读摘录、生活观察和简单实用的清单。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="小岛笔记 — 阅读、生活与思考" />
+  <meta property="og:description" content="分享阅读、生活与思考，把值得留下的内容慢慢记下来。" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233d6b57'/%3E%3Cpath d='M18 18h20c6 0 10 4 10 10v18H28c-6 0-10-4-10-10V18Z' fill='%23fffaf0'/%3E%3Cpath d='M28 18v28' stroke='%233d6b57' stroke-width='3'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#home" aria-label="小岛笔记首页">
+        <span class="brand__mark" aria-hidden="true">岛</span>
+        <span>小岛笔记</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="主导航">
+        <a href="#notes">文章</a>
+        <a href="#lists">清单</a>
+        <a href="#about">关于本站</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="切换深浅色主题">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" />
+            <path d="M12 2.6v2.6M12 18.8v2.6M2.6 12h2.6M18.8 12h2.6M5.4 5.4l1.8 1.8M16.8 16.8l1.8 1.8M18.6 5.4l-1.8 1.8M7.2 16.8l-1.8 1.8" />
+          </svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.5 14.6A8.6 8.6 0 1 1 9.4 3.5a7 7 0 0 0 11.1 11.1Z" />
+          </svg>
+        </button>
+        <button class="icon-btn nav__burger" id="menuToggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="wrap hero__inner">
+        <p class="eyebrow">阅读 · 生活 · 思考</p>
+        <h1>把值得留下的，<br /><span>慢慢分享。</span></h1>
+        <p class="hero__desc">
+          这里收集读过的书、走过的小路和一些不急着得出的结论。
+          不追热点，只记录那些过了一段时间仍然有用的内容。
+        </p>
+        <a class="text-link" href="#notes">开始阅读 <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="notes">
+      <div class="wrap">
+        <div class="section__heading">
+          <div>
+            <p class="section__label">NOTES</p>
+            <h2>最近写下的笔记</h2>
+          </div>
+          <p>一些短文，随时可以读完。</p>
+        </div>
+
+        <div class="notes">
+          <article class="note" data-reveal>
+            <div class="note__meta"><span>阅读</span><time datetime="2026-10-18">2026.10.18</time></div>
+            <h3>重读一本书，是在读新的自己</h3>
+            <p>书里的文字没有变，划线的地方却变了。那些曾经略过的段落，如今反而让人停下来。</p>
+            <details>
+              <summary>继续阅读</summary>
+              <div class="note__full">
+                <p>重读的价值，不只是捡起遗漏的信息，更是借一个熟悉的故事看见自己的变化。第一次读情节，第二次读选择，第三次或许开始理解沉默。</p>
+                <p>不必追求每年读多少本。挑一本真正喜欢旧书，在空白处写下新的想法，也是一种扎实的阅读。</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="note" data-reveal>
+            <div class="note__meta"><span>生活</span><time datetime="2026-10-06">2026.10.06</time></div>
+            <h3>给生活留一点没有安排的空白</h3>
+            <p>日历不必填满，周末也不必都有计划。空白不是浪费，它让偶然发生的事情有机会进来。</p>
+            <details>
+              <summary>继续阅读</summary>
+              <div class="note__full">
+                <p>试着留出一个没有目的的下午：去附近散步，进一家没去过的小店，或者只是坐在窗边喝茶。</p>
+                <p>当时间不必立刻产生结果，感受会变得清晰。很多看似无用的时刻，最后都成了真正记得住的部分。</p>
+              </div>
+            </details>
+          </article>
+
+          <article class="note" data-reveal>
+            <div class="note__meta"><span>思考</span><time datetime="2026-09-21">2026.09.21</time></div>
+            <h3>少一点收藏，多一点自己的话</h3>
+            <p>保存一条内容只需要一秒，但真正理解它，需要停下来，用自己的话重新讲一遍。</p>
+            <details>
+              <summary>继续阅读</summary>
+              <div class="note__full">
+                <p>收藏夹越来越满，不代表知道得越来越多。更好的做法，是每次只留下最触动的一点，再补上一句：它和我有什么关系？</p>
+                <p>笔记不必完整，也不用漂亮。能帮助我们回到当时的问题，就已经足够。</p>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tinted" id="lists">
+      <div class="wrap">
+        <div class="section__heading">
+          <div>
+            <p class="section__label">SMALL LISTS</p>
+            <h2>简单的小清单</h2>
+          </div>
+          <p>可直接带走，也可以按需删改。</p>
+        </div>
+
+        <div class="lists">
+          <section class="list-card" data-reveal>
+            <span class="list-card__number">01</span>
+            <h3>一个轻松的周末</h3>
+            <ul>
+              <li>睡到自然醒，认真吃早餐</li>
+              <li>出门走走，不带任务</li>
+              <li>读二十页一直想读的书</li>
+              <li>提前半小时放下手机</li>
+            </ul>
+          </section>
+          <section class="list-card" data-reveal>
+            <span class="list-card__number">02</span>
+            <h3>让房间恢复清爽</h3>
+            <ul>
+              <li>先清理桌面这一小块地方</li>
+              <li>物品放回固定的位置</li>
+              <li>捐出一年没有用到的东西</li>
+              <li>给喜欢的小物件留位置</li>
+            </ul>
+          </section>
+          <section class="list-card" data-reveal>
+            <span class="list-card__number">03</span>
+            <h3>开始一篇新笔记</h3>
+            <ul>
+              <li>只写此刻最想记录的一件事</li>
+              <li>先完成，再考虑是否完整</li>
+              <li>删去不重要的大道理</li>
+              <li>留一个值得继续想的问题</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="wrap about__inner" data-reveal>
+        <p class="section__label">ABOUT THIS SITE</p>
+        <h2>一个不必赶时间的内容角落</h2>
+        <p>
+          小岛笔记关注阅读、日常生活与独立表达。内容不求多，只希望每一篇都真诚、清楚，
+          并能带来一点启发。这里不设置关注数，也没有消息提醒，欢迎偶尔来坐坐。
+        </p>
+        <a class="text-link" href="#home">回到开头 <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="year">2026</span> 小岛笔记</span>
+      <span>慢慢读，认真生活。</span>
+    </div>
+  </footer>
+</body>
+</html>
